@@ -1,5 +1,4 @@
 #using flask to make an api 
-# import necessary libraries and functions 
 from flask import Flask, jsonify, request 
   
 from Crypto.PublicKey import RSA
