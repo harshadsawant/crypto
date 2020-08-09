@@ -14,7 +14,6 @@ def home():
   	key = RSA.generate(1024)
 	pub_key = key.publickey()	
 
-        data = "hello world"
         return jsonify({'Private Key': key})
 	return jsonify({'Public Key': pub_key})
   
